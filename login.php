@@ -15,7 +15,8 @@
         session_start();
     }
     ?>
-    <div class="container mx-auto flex justify-center items-center min-h-screen pt-16 glassmorphism" style="background-image: url('img/login.gif'); width: 100%; height: 100%; background-size: cover; background-position: center;">
+    <div class="container mx-auto flex justify-center items-center min-h-screen pt-16 glassmorphism"
+        style="background-image: url('img/login.gif'); width: 100%; height: 100%; background-size: cover; background-position: center;">
 
         <div
             class="bg-black bg-opacity-80 p-8 rounded-lg w-full max-w-md border border-cyber-green shadow-lg shadow-cyber-green/30 relative overflow-hidden">
@@ -39,14 +40,13 @@
                         class="w-full bg-cyber-green hover:bg-green-400 text-black font-bold py-2 px-4 rounded transition-colors duration-300 shadow-lg shadow-cyber-green/30 transform hover:scale-[1.02]">AUTHENTICATE</button>
                 </div>
             </form>
-        </div>
-        
-        <div class="text-center">
-            <a href="index.php" class="text-cyber-green text-2xl hover:text-cyber-pink transition-colors duration-300">Back to
-                Home</a>
+            <div class="text-center">
+                <a href="index.php"
+                    class="text-cyber-green text-2xl hover:text-cyber-pink transition-colors duration-300">Back to
+                    Home</a>
+            </div>
         </div>
 
-    </div>
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
